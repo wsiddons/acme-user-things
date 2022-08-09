@@ -14,7 +14,10 @@ CREATE TABLE things(
 
 INSERT INTO users(name) VALUES('moe');
 INSERT INTO users(name) VALUES('lucy');
-INSERT INTO users(name) VALUES('will');
 INSERT INTO users(name) VALUES('larry');
+INSERT INTO users(name) VALUES('ethyl');
 
 INSERT INTO things(name, "userId", description) VALUES('foo', 1, 'foo description');
+INSERT INTO things(name, "userId", description) VALUES('bar', 1, 'bar description');
+INSERT INTO things(name, "userId", description) VALUES('bazz', 2, 'bazz description');
+INSERT INTO things(name, description) VALUES('quq', 'bazz description');
